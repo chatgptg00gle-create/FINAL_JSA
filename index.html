@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix - Xem Phim Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-film"></i>
+                    MovieFlix
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Trang Chủ</a>
+                <a href="#phim-le" class="nav-link">Phim Lẻ</a>
+                <a href="#phim-bo" class="nav-link">Phim Bộ</a>
+                <a href="#phim-moi" class="nav-link">Phim Mới</a>
+                <div class="nav-search">
+                    <input type="text" placeholder="Tìm kiếm phim...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <a href="login.html" class="nav-link login-btn">Đăng Nhập</a>
+                <a href="register.html" class="nav-link register-btn">Đăng Ký</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="banner-content">
+            <div class="banner-info">
+                <h1 class="banner-title">AVATAR: DÒNG CHẢY CỦA NƯỚC</h1>
+                <div class="banner-meta">
+                    <span class="rating"><i class="fas fa-star"></i> 8.5/10</span>
+                    <span class="year">2022</span>
+                    <span class="duration">3h 12m</span>
+                    <span class="quality">4K</span>
+                </div>
+                <p class="banner-description">
+                    Jake Sully và gia đình thực hiện một cuộc hành trình khắp Pandora, gặp gỡ những bộ tộc Na'vi mới và khám phá những vùng đất mới...
+                </p>
+                <div class="banner-actions">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-play"></i>
+                        Xem Ngay
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Chi Tiết
+                    </button>
+                </div>
+            </div>
+            <div class="banner-poster">
+                <img src="https://via.placeholder.com/400x600/667eea/ffffff?text=AVATAR" alt="Avatar Poster">
+            </div>
+        </div>
+    </section>
+
+    <!-- Movie Sections -->
+    <section class="movie-section" id="phim-moi">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Phim Mới Cập Nhật</h2>
+                <a href="#" class="view-all">Xem tất cả <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="movies-grid">
+                <!-- Movie Card 1 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://via.placeholder.com/300x450/764ba2/ffffff?text=BLACK+ADAM" alt="Black Adam">
+                        <div class="movie-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="movie-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                        </div>
+                        <span class="movie-quality">HD</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Black Adam</h3>
+                        <div class="movie-meta">
+                            <span>2022</span>
+                            <span>2h 5m</span>
+                            <span class="rating"><i class="fas fa-star"></i> 7.0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Card 2 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://via.placeholder.com/300x450/667eea/ffffff?text=WAKANDA+FOREVER" alt="Wakanda Forever">
+                        <div class="movie-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="movie-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                        </div>
+                        <span class="movie-quality">4K</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Black Panther: Wakanda Forever</h3>
+                        <div class="movie-meta">
+                            <span>2022</span>
+                            <span>2h 41m</span>
+                            <span class="rating"><i class="fas fa-star"></i> 7.2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Card 3 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://via.placeholder.com/300x450/f093fb/ffffff?text=AVENGERS+5" alt="Avengers 5">
+                        <div class="movie-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="movie-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                        </div>
+                        <span class="movie-quality">HD</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Avengers: The Kang Dynasty</h3>
+                        <div class="movie-meta">
+                            <span>2025</span>
+                            <span>--</span>
+                            <span class="rating"><i class="fas fa-star"></i> --</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Card 4 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://via.placeholder.com/300x450/4facfe/ffffff?text=SPIDER-MAN" alt="Spider-Man">
+                        <div class="movie-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="movie-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                        </div>
+                        <span class="movie-quality">4K</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Spider-Man: Across the Spider-Verse</h3>
+                        <div class="movie-meta">
+                            <span>2023</span>
+                            <span>2h 20m</span>
+                            <span class="rating"><i class="fas fa-star"></i> 8.7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TV Series Section -->
+    <section class="movie-section" id="phim-bo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Phim Bộ Hot</h2>
+                <a href="#" class="view-all">Xem tất cả <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="movies-grid">
+                <!-- TV Series Cards -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://via.placeholder.com/300x450/667eea/ffffff?text=THE+LAST+OF+US" alt="The Last of Us">
+                        <div class="movie-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="movie-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                        </div>
+                        <span class="movie-quality">4K</span>
+                        <span class="episode-tag">Tập 9/9</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Last of Us</h3>
+                        <div class="movie-meta">
+                            <span>2023</span>
+                            <span>9 Tập</span>
+                            <span class="rating"><i class="fas fa-star"></i> 8.8</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://via.placeholder.com/300x450/764ba2/ffffff?text=STRANGER+THINGS" alt="Stranger Things">
+                        <div class="movie-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="movie-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                        </div>
+                        <span class="movie-quality">4K</span>
+                        <span class="episode-tag">Mùa 4</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Stranger Things</h3>
+                        <div class="movie-meta">
+                            <span>2016-2024</span>
+                            <span>4 Mùa</span>
+                            <span class="rating"><i class="fas fa-star"></i> 8.7</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://via.placeholder.com/300x450/f093fb/ffffff?text=WEDNESDAY" alt="Wednesday">
+                        <div class="movie-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="movie-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                        </div>
+                        <span class="movie-quality">HD</span>
+                        <span class="episode-tag">Mùa 1</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Wednesday</h3>
+                        <div class="movie-meta">
+                            <span>2022</span>
+                            <span>8 Tập</span>
+                            <span class="rating"><i class="fas fa-star"></i> 8.2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://via.placeholder.com/300x450/4facfe/ffffff?text=THE+MANDALORIAN" alt="The Mandalorian">
+                        <div class="movie-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="movie-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="far fa-bookmark"></i></button>
+                            </div>
+                        </div>
+                        <span class="movie-quality">4K</span>
+                        <span class="episode-tag">Mùa 3</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Mandalorian</h3>
+                        <div class="movie-meta">
+                            <span>2019-2023</span>
+                            <span>3 Mùa</span>
+                            <span class="rating"><i class="fas fa-star"></i> 8.8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <h3>Xem Mọi Lúc Mọi Nơi</h3>
+                    <p>Xem phim trên TV, điện thoại, máy tính bảng và nhiều thiết bị khác</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Tải Xuống Để Xem Offline</h3>
+                    <p>Tải phim yêu thích và xem khi không có kết nối internet</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>Không Giới Hạn</h3>
+                    <p>Thư viện phim khổng lồ với hàng ngàn tựa phim đặc sắc</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MovieFlix</h3>
+                    <p>Nền tảng xem phim trực tuyến chất lượng cao với hàng ngàn tựa phim đặc sắc.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Danh Mục</h4>
+                    <ul>
+                        <li><a href="#">Phim Hành Động</a></li>
+                        <li><a href="#">Phim Tình Cảm</a></li>
+                        <li><a href="#">Phim Kinh Dị</a></li>
+                        <li><a href="#">Phim Hài</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Liên Kết</h4>
+                    <ul>
+                        <li><a href="#">Về Chúng Tôi</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+                        <li><a href="#">Điều Khoản</a></li>
+                        <li><a href="#">Bảo Mật</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Theo Dõi</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MovieFlix. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
